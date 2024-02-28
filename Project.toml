@@ -3,7 +3,13 @@ uuid = "52f94c76-d24e-4e9c-adb0-2911dbdc9f65"
 authors = ["JuiceYU"]
 version = "1.0.0-DEV"
 
+[deps]
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
 [compat]
+LinearAlgebra = "1"
 julia = "1.10"
 
 [extras]
